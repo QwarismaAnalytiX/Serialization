@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake --build:*)",
+      "Bash(./TestBinarySerialization)",
+      "Bash(./build/TestBinarySerialization:*)",
+      "Bash(./build/TestJsonSerialization:*)",
+      "Bash(include/common/serialization_macros.h)",
+      "Bash(make:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
